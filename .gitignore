@@ -1,0 +1,7 @@
+*.gitmodules
+*.o
+*.i
+*.d
+*.mk
+*.p1
+_ext
