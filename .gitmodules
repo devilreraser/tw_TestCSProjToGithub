@@ -1,0 +1,3 @@
+[submodule "02_Libraries/TestCSSubmoduleToGithub"]
+	path = 02_Libraries/TestCSSubmoduleToGithub
+	url = https://github.com/devilreraser/tw_TestCSSubmoduleToGithub.git
