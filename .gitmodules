@@ -1,0 +1,3 @@
+[submodule "02_Libraries/TestCSSubmoduleToGithub"]
+	path = 02_Libraries/TestCSSubmoduleToGithub
+	url = //192.168.1.102/repo_git/tw_TestCSSubmoduleToGithub.git
