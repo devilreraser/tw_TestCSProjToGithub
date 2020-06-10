@@ -11,52 +11,8 @@ echo.
 echo Process Submodules:
 
 echo.
-echo Process HexMonitor:
-cd 02_Libraries\HexMonitor
-git.exe fetch --all -v --progress
-git.exe checkout -f -B master remotes/github/master --
-git merge --allow-unrelated-histories -Xrenormalize remotes/convesys/master < ..\..\ConvesysToGithub.in
-git commit -a -m "%_CommitString%"
-git push github master
-git.exe checkout -f -B master origin/master --
-cd ..\..
-
-echo.
-echo Process MathAndControl:
-cd 02_Libraries\MathAndControl
-git.exe fetch --all -v --progress
-git.exe checkout -f -B master remotes/github/master --
-git merge --allow-unrelated-histories -Xrenormalize remotes/convesys/master < ..\..\ConvesysToGithub.in
-git commit -a -m "%_CommitString%"
-git push github master
-git.exe checkout -f -B master origin/master --
-cd ..\..
-
-echo.
-echo Process ModbusAddress:
-cd 02_Libraries\ModbusAddress
-git.exe fetch --all -v --progress
-git.exe checkout -f -B master remotes/github/master --
-git merge --allow-unrelated-histories -Xrenormalize remotes/convesys/master < ..\..\ConvesysToGithub.in
-git commit -a -m "%_CommitString%"
-git push github master
-git.exe checkout -f -B master origin/master --
-cd ..\..
-
-echo.
-echo Process Peripheral:
-cd 02_Libraries\Peripheral
-git.exe fetch --all -v --progress
-git.exe checkout -f -B master remotes/github/master --
-git merge --allow-unrelated-histories -Xrenormalize remotes/convesys/master < ..\..\ConvesysToGithub.in
-git commit -a -m "%_CommitString%"
-git push github master
-git.exe checkout -f -B master origin/master --
-cd ..\..
-
-echo.
-echo Process TestControl:
-cd 02_Libraries\TestControl
+echo Process TestCSSubmoduleToGithub:
+cd 02_Libraries\TestCSSubmoduleToGithub
 git.exe fetch --all -v --progress
 git.exe checkout -f -B master remotes/github/master --
 git merge --allow-unrelated-histories -Xrenormalize remotes/convesys/master < ..\..\ConvesysToGithub.in
