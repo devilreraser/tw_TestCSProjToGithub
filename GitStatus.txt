@@ -1,0 +1,2 @@
+git status -s | grep ^U | awk '{print $2}'
+git status --porcelain=v1
