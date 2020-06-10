@@ -6,14 +6,14 @@ echo.
 echo TestCSSubmoduleToGithub:
 echo.
 cd 02_Libraries\TestCSSubmoduleToGithub
-git fetch --all
-git pull
+git.exe fetch -v --progress "origin"
+git.exe pull --progress -v --no-rebase "origin"
 cd ..\..
 echo.
 echo Process Project:
 echo.
-git fetch --all
-git pull
+git.exe fetch -v --progress "origin"
+git.exe pull --progress -v --no-rebase "origin"
 echo.
 echo Completed!
 echo Press Enter to Exit
